@@ -138,16 +138,29 @@ g++ -std=c++11 main.cpp -o 010Editor-keygen.exe
 ```
 
 ## 3. How to use
-Just run it.
+Thanks for improvement from @DeltaFoX
+
+Usage:
+
+```bash
+010Editor-keygen.exe <your name> <year> <month> <day> <numbers of user>
+```
+
+__NOTICE:__
+
+  * `<your name>` should be English only, otherwise it would cause error.
+
+  * `<year> <month> <day>` represent expire date.
+
+  * `<number of user>` represents license count. It can be 1 to 1000.
 
 Example:
 ```
-E:\Github\010Editor-keygen\cpp>010Editor-keygen.exe
-Input your name(English Only): DoubleLabyrinth
-47AD-E1AC-D789-D133-2114
+C:\Users\DoubleSine\Github\010Editor-keygen\cpp>010Editor-keygen.exe DoubleLabyrinth 2106 2 8 1
+2383-22AC-854A-A21D-5CDF
 
 E:\Github\010Editor-keygen\cpp>
 ```
 
 __NOTICE:__  
-This key generated will expired after 2020-06-23. If you want to modify expire date, please modify variables named __ExpireYear__, __ExpireMonth__ and __ExpireDay__ in `main.cpp`.
+This key generated will expired after 2106-02-08.
