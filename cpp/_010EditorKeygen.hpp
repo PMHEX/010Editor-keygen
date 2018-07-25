@@ -160,21 +160,17 @@ namespace _010Editor {
 
             Password.Type = 0xFC;
 
-            ret << std::hex << std::uppercase << std::setw(2) << std::setfill('0');
-            ret << static_cast<unsigned>(Password.data[0]);
-            ret << static_cast<unsigned>(Password.data[1]);
+            ret << std::hex << std::uppercase << std::setw(2) << std::setfill('0') << static_cast<unsigned>(Password.data[0]);
+            ret << std::hex << std::uppercase << std::setw(2) << std::setfill('0') << static_cast<unsigned>(Password.data[1]);
             ret << "-";
-            ret << std::hex << std::uppercase << std::setw(2) << std::setfill('0');
-            ret << static_cast<unsigned>(Password.data[2]);
-            ret << static_cast<unsigned>(Password.data[3]);
+            ret << std::hex << std::uppercase << std::setw(2) << std::setfill('0') << static_cast<unsigned>(Password.data[2]);
+            ret << std::hex << std::uppercase << std::setw(2) << std::setfill('0') << static_cast<unsigned>(Password.data[3]);
             ret << "-";
-            ret << std::hex << std::uppercase << std::setw(2) << std::setfill('0');
-            ret << static_cast<unsigned>(Password.data[4]);
-            ret << static_cast<unsigned>(Password.data[5]);
+            ret << std::hex << std::uppercase << std::setw(2) << std::setfill('0') << static_cast<unsigned>(Password.data[4]);
+			ret << std::hex << std::uppercase << std::setw(2) << std::setfill('0') << static_cast<unsigned>(Password.data[5]);
             ret << "-";
-            ret << std::hex << std::uppercase << std::setw(2) << std::setfill('0');
-            ret << static_cast<unsigned>(Password.data[6]);
-            ret << static_cast<unsigned>(Password.data[7]);
+            ret << std::hex << std::uppercase << std::setw(2) << std::setfill('0') << static_cast<unsigned>(Password.data[6]);
+			ret << std::hex << std::uppercase << std::setw(2) << std::setfill('0') << static_cast<unsigned>(Password.data[7]);
 
             return ret.str();
         }
@@ -219,21 +215,17 @@ namespace _010Editor {
             Password.Type = 0x9C;
 
 
-            ret << std::hex << std::uppercase << std::setw(2) << std::setfill('0');
-            ret << static_cast<unsigned>(Password.data[0]);
-            ret << static_cast<unsigned>(Password.data[1]);
+            ret << std::hex << std::uppercase << std::setw(2) << std::setfill('0') << static_cast<unsigned>(Password.data[0]);
+            ret << std::hex << std::uppercase << std::setw(2) << std::setfill('0') << static_cast<unsigned>(Password.data[1]);
             ret << "-";
-            ret << std::hex << std::uppercase << std::setw(2) << std::setfill('0');
-            ret << static_cast<unsigned>(Password.data[2]);
-            ret << static_cast<unsigned>(Password.data[3]);
+            ret << std::hex << std::uppercase << std::setw(2) << std::setfill('0') << static_cast<unsigned>(Password.data[2]);
+            ret << std::hex << std::uppercase << std::setw(2) << std::setfill('0') << static_cast<unsigned>(Password.data[3]);
             ret << "-";
-            ret << std::hex << std::uppercase << std::setw(2) << std::setfill('0');
-            ret << static_cast<unsigned>(Password.data[4]);
-            ret << static_cast<unsigned>(Password.data[5]);
+            ret << std::hex << std::uppercase << std::setw(2) << std::setfill('0') << static_cast<unsigned>(Password.data[4]);
+			ret << std::hex << std::uppercase << std::setw(2) << std::setfill('0') << static_cast<unsigned>(Password.data[5]);
             ret << "-";
-            ret << std::hex << std::uppercase << std::setw(2) << std::setfill('0');
-            ret << static_cast<unsigned>(Password.data[6]);
-            ret << static_cast<unsigned>(Password.data[7]);
+            ret << std::hex << std::uppercase << std::setw(2) << std::setfill('0') << static_cast<unsigned>(Password.data[6]);
+			ret << std::hex << std::uppercase << std::setw(2) << std::setfill('0') << static_cast<unsigned>(Password.data[7]);
 
             return ret.str();
         }
@@ -280,25 +272,20 @@ namespace _010Editor {
             Password.Type = 0xAC;
 
 
-            ret << std::hex << std::uppercase << std::setw(2) << std::setfill('0');
-            ret << static_cast<unsigned>(Password.data[0]);
-            ret << static_cast<unsigned>(Password.data[1]);
+            ret << std::hex << std::uppercase << std::setw(2) << std::setfill('0') << static_cast<unsigned>(Password.data[0]);
+            ret << std::hex << std::uppercase << std::setw(2) << std::setfill('0') << static_cast<unsigned>(Password.data[1]);
             ret << "-";
-            ret << std::hex << std::uppercase << std::setw(2) << std::setfill('0');
-            ret << static_cast<unsigned>(Password.data[2]);
-            ret << static_cast<unsigned>(Password.data[3]);
+            ret << std::hex << std::uppercase << std::setw(2) << std::setfill('0') << static_cast<unsigned>(Password.data[2]);
+            ret << std::hex << std::uppercase << std::setw(2) << std::setfill('0') << static_cast<unsigned>(Password.data[3]);
             ret << "-";
-            ret << std::hex << std::uppercase << std::setw(2) << std::setfill('0');
-            ret << static_cast<unsigned>(Password.data[4]);
-            ret << static_cast<unsigned>(Password.data[5]);
+            ret << std::hex << std::uppercase << std::setw(2) << std::setfill('0') << static_cast<unsigned>(Password.data[4]);
+			ret << std::hex << std::uppercase << std::setw(2) << std::setfill('0') << static_cast<unsigned>(Password.data[5]);
             ret << "-";
-            ret << std::hex << std::uppercase << std::setw(2) << std::setfill('0');
-            ret << static_cast<unsigned>(Password.data[6]);
-            ret << static_cast<unsigned>(Password.data[7]);
-            ret << "-";
-            ret << std::hex << std::uppercase << std::setw(2) << std::setfill('0');
-            ret << static_cast<unsigned>(Password.data[8]);
-            ret << static_cast<unsigned>(Password.data[9]);
+            ret << std::hex << std::uppercase << std::setw(2) << std::setfill('0') << static_cast<unsigned>(Password.data[6]);
+			ret << std::hex << std::uppercase << std::setw(2) << std::setfill('0') << static_cast<unsigned>(Password.data[7]);
+			ret << "-";
+            ret << std::hex << std::uppercase << std::setw(2) << std::setfill('0') << static_cast<unsigned>(Password.data[8]);
+			ret << std::hex << std::uppercase << std::setw(2) << std::setfill('0') << static_cast<unsigned>(Password.data[9]);
 
             return ret.str();
         }
