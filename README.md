@@ -130,6 +130,7 @@ A keygen for 010Editor
   Finally, the `TimeLicense` key is the hex string of `data[10]` where 4 hex chars consist of a block and each block is joined by `"-"`(hyphen). 
 
 ## 2. How to build
+
 In console:
 
 ```
@@ -138,6 +139,7 @@ g++ -std=c++11 main.cpp -o 010Editor-keygen.exe
 ```
 
 ## 3. How to use
+
 Thanks for improvement from @DeltaFoX
 
 Usage:
@@ -164,3 +166,16 @@ E:\Github\010Editor-keygen\cpp>
 
 __NOTICE:__  
 This key generated will expired after 2106-02-08.
+
+## 4. How to bypass online check
+
+1. Add an item in `hosts`
+
+```
+127.0.0.1 www.sweetscape.com
+```
+
+2. Run `server.py`
+
+3. Go to 010Editor and activate again.
+
